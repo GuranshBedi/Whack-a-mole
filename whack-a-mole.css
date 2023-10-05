@@ -1,7 +1,6 @@
 body {
   background-color: rgb(151, 219, 48);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1,
 h2 {
@@ -57,6 +56,6 @@ button {
   border-radius: 50%;
   font-size: 90%;
 }
-.stop {
-  display: none;
+.stop{
+    display: none;
 }
