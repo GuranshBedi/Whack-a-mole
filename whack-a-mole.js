@@ -27,14 +27,15 @@ if (typeof window !== "undefined") {
       image.setAttribute("class", "mole");
       hole.appendChild(image);
 
+      window.addEventListener("click", (e) => {
+        if (e.target === image) 
+        score.innerText = ++points;
+      });
+
       setTimeout(() => {
         hole.removeChild(image);
       }, 600);
     }, 700);
-
-    window.addEventListener("click", (e) => {
-      if (e.target === hole) score.textContent = points++;
-    });
 
     stopBtn.addEventListener("click", () => {
       clearInterval(startGame);
