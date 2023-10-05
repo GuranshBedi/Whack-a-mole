@@ -28,7 +28,8 @@ if (typeof window !== 'undefined') {
           hole.appendChild(image);
 
           window.addEventListener("click", (e) => {
-            if (e.target === image) score.innerText = ++points;
+            if (e.target === image) 
+            score.innerText = ++points;
           });
       
           setTimeout(() => {
